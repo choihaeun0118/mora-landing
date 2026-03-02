@@ -1,0 +1,32 @@
+/* 기본 초기화 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f5f3ee; /* 모라 무드에 맞는 베이지톤 */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+/* 전체 이미지 감싸는 영역 */
+.landing-wrap {
+    width: 100%;
+    max-width: 1920px; /* PC 기준 */
+}
+
+/* 이미지 반응형 */
+.landing-wrap img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.landing-wrap {
+    width: 100%;
+    max-width: 1200px;   /* 여기 1200으로 변경 */
+    margin: 0 auto;      /* 가운데 정렬 */
+}
